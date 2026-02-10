@@ -8,31 +8,31 @@ The pipeline starts from raw CSV files received via email and ends with a fully 
 
 1. Data Ingestion
 
-Automated email trigger using n8n
+-- Automated email trigger using n8n
 
-CSV files extracted directly from Gmail attachments
+-- CSV files extracted directly from Gmail attachments
 
 2. Data Transformation
 
-Data type validation and formatting
+-- Data type validation and formatting
 
-Date standardization (ISO format)
+-- Date standardization (ISO format)
 
-Basic cleansing to ensure analytics consistency
+-- Basic cleansing to ensure analytics consistency
 
 3. Data Storage
 
-Cloud database built using Supabase (PostgreSQL)
+-- Cloud database built using Supabase (PostgreSQL)
 
-Star-schema style design with fact and dimension tables
+-- Star-schema style design with fact and dimension tables
 
-Optimized for querying and reporting
+-- Optimized for querying and reporting
 
 4. Data Analysis
 
-Data exploration and validation using Quadratic
+-- Data exploration and validation using Quadratic
 
-SQL-based analysis on structured fact tables
+-- SQL-based analysis on structured fact tables
 
 📊 Key Learnings
 
